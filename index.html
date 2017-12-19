@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="Portfolio Website">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Eric Johnston">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee%7CPoiret+One" rel="stylesheet">
+  <link rel="icon" href="favicon.png">
+  <meta name="theme-color" content="#db5945">
+  <title>Eric Johnston</title>
+</head>
+
+<body class="hidden">
+  <header class="container">
+    <!-- Logo, name and title -->
+    <div class="row text-center">
+      <div class="col-sm-6">
+        <img class="logo" src="img/logo.jpg" alt="logo">
+      </div>
+      <div class="col-sm-6 name">
+        <h1>Eric Johnston</h1>
+        <h3>Aspiring Web Developer</h3>
+      </div>
+    </div>
+  </header>
+  <!-- line -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <hr>
+      </div>
+    </div>
+    <!-- Main image -->
+    <section class="row">
+      <figure class="col-sm-12">
+        <img class="img-rounded main-img" src="img/wood.jpg" alt="coding">
+      </figure>
+    </section>
+    <!-- line -->
+    <div class="row">
+      <div class="col-sm-12">
+        <hr>
+      </div>
+    </div>
+  </div>
+  <!--List of featured projects-->
+  <section class="container-fluid text-center">
+    <div class="row">
+      <header class="col-sm-12">
+        <h2>Featured Projects</h2>
+      </header>
+    </div>
+    <div class="row">
+      <article class="col-sm-4">
+        <div class="thumbnail">
+          <a href="https://github.com/emjohn612/movie-project.git" target="_blank">
+            <img class="project-img movie" src="img/movie.jpg" alt="Movie Trailers">
+          </a>
+          <p><strong>Movie Trailer Website</strong></p>
+        </div>
+      </article>
+      <article class="col-sm-4">
+        <div class="thumbnail">
+          <a href="https://github.com/emjohn612/Memory-Game.git" target="_blank">
+            <img class="project-img memory" src="img/memory-game-icon.png" alt="Memory Game">
+          </a>
+          <p><strong>Memory Game</strong></p>
+        </div>
+      </article>
+      <article class="col-sm-4">
+        <div class="thumbnail">
+          <a href="https://github.com/emjohn612" target="_blank">
+            <img class="project-img" src="img/wood2.jpg" alt="placeholder">
+          </a>
+          <p><strong>3rd-project (placeholder-img)</strong></p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer class="container">
+    <!--Social icons-->
+    <div class="row social-media text-center">
+      <ul class="col-sm-12 social-icons">
+        <li><a href="https://github.com/emjohn612" onclick="this.blur()" target="_blank" class="social-icon"> <i class="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/EricJohnsTon17" onclick="this.blur()" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/eric-m-johnston" onclick="this.blur()" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!--Fade in-->
+  <script>
+    $(document).ready(function() {
+      $(".hidden").fadeIn(1000).removeClass('hidden');
+    });
+  </script>
+</body>
+
+</html>
